@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="pt-5">
+        <nav class="flex w-full container">
+            <ul class="flex w-6/12 justify-end gap-3">
+                <li>
+                    <select>
+                        <option>Покупателям</option>
+                        <option>Saab</option>
+                    </select>
+                </li>
+
+                <li>
+                    <select>
+                        <option>Поставщикам</option>
+                        <option>Saab</option>
+                    </select>
+                </li>
+
+                <li>
+                    <p>Частые вопросы</p>
+                </li>
+            </ul>
+
+            <div class="flex w-6/12 justify-end gap-2">
+                <img src="./imgs/flagRu.svg" alt="">
+                <p class="border-x border-black px-2">Русский</p>
+                <select>
+                    <option>₽</option>
+                    <option>$</option>
+                </select>
+            </div>
+        </nav>
+        <nav class="flex container items-center justify-between pt-5">
+            <i class="fa-solid fa-bars bg-custom-gradient p-4 text-[36px] cursor-pointer" style="color: #ffffff;"></i>
+            <a href="#"><img src="./imgs/header-logo.svg" alt="" class="cursor-pointer"></a>
+            <div class="border-2 border-blue-700 h-12 w-[820px] pr-4">
+                <select class="bg-slate-200 h-full px-4">
+                    <option>Везде</option>
+                    <option>Везде</option>
+                </select>
+                <input type="text" class="w-[660px] outline-none">
+                <i class="fa-solid fa-magnifying-glass text-2xl" style="color: #000000;"></i>
+            </div>
+
+            <div class="flex gap-7">
+                <a class="flex flex-col items-center">
+                    <i class="fa-regular fa-user text-2xl" style="color: #000000;"></i>
+                    <p>Войти</p>
+                </a>
+
+                <a class="flex flex-col items-center">
+                    <i class="fa-solid fa-heart text-2xl" style="color: #931acb;"></i>
+                    <p>Избранное</p>
+                </a>
+
+                <a class="flex flex-col items-center">
+                    <i class="fa-solid fa-cart-shopping text-2xl" style="color: #270467;"></i>
+                    <p>Корзина</p>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="container pt-8 flex flex-col gap-12">
+        <div class="flex justify-between w-full">
+            <div class="w-9/12">
+                <img src="./imgs/banner.png" alt="" class="w-full">
+            </div>
+
+            <div class="flex flex-col justify-between">
+                <img src="./imgs/hero1.png" alt="">
+                <img src="./imgs/hero2.png" alt="">
+            </div>
+        </div>
+
+        <div>
+            <p class="text-2xl font-semibold">Успей купить</p>
+        </div>
+    </main>
+
+
+    <footer class="container pt-10 bg-custom-gradient text-white py-12">
+        <div class="flex justify-between items-start">
+            <ul class="flex flex-col gap-2">
+                <li>Покупателям</li>
+                <li><a href="#">Как это работает</a></li>
+                <li><a href="#">Защита покупателя</a></li>
+                <li><a href="#">Условия оплаты </a></li>
+                <li><a href="#">Условия использования </a></li>
+                <li><a href="#">Регистрация аккаунта</a></li>
+            </ul>
+
+            <ul class="flex flex-col gap-2">
+                <li>Поставщикам</li>
+                <li><a href="#">Как стать продавцом</a></li>
+                <li><a href="#">Правила участия </a></li>
+                <li><a href="#">Личный кабинет продавца </a></li>
+            </ul>
+
+            <ul class="flex flex-col gap-2">
+                <li>O компании</li>
+                <li><a href="#">O PlaceMik</a></li>
+                <li><a href="#">Новости </a></li>
+                <li><a href="#">Часто задаваемые вопросы</a></li>
+                <li><a href="#">Служба поддержки </a></li>
+                <li><a href="#">Сообщить о нарушении авторских прав</a></li>
+            </ul>
+
+            <div class="flex flex-col gap-2">
+                <p>Хотите быть в курсе последних новостей и акций?</p>
+                <div class="flex">
+                    <button>konstantinkonstantinov@yandex.ru</button>
+                    <button>Подписаться</button>
+                </div>
+                <p>Мы в соцсетях</p>
+                <div>ICONS</div>
+            </div>
+        </div>
+
+
+
+        <div class="flex justify-between pt-12 items-center">
+            <img src="./imgs/footer-logo.svg" alt="logo">
+            <p>© PlaceMik.ru, 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
